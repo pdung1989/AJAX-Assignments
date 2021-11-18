@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 15px 30px;
+        background-color: powderblue;
+      }
+
+      a:visited {
+        color: rgb(192, 18, 44);
+      }
+      a:hover {
+        color: rgb(50, 48, 134);
+      }
+
+      nav a[data-selected] {
+        background-color: papayawhip;
+      }
+    </style>
+  </head>
+  <body>
+    <tab-panel>
+      <div data-tabname="one">Tab one</div>
+      <div data-tabname="two">Tab two</div>
+      <div data-tabname="three">Tab three</div>
+    </tab-panel>
+    <script src="tab.js"></script>
+  </body>
+</html>
