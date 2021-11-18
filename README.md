@@ -6,4 +6,4 @@
 3. Make Tabs
 
 ### Input/Search data
-5. Search movies (fetch movies data from API endpoint)
+Search movies (fetch movies data from API endpoint)
