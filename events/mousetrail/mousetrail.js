@@ -2,8 +2,10 @@
 
 // create an array of dot
 const elements = [];
+
 for (let i = 0; i < 15; i++) {
-  let dot = document.createElement('div');
+  let dot = document.createElement('IMG');
+  dot.setAttribute("src", "https://img.icons8.com/cute-clipart/50/000000/cat.png")
   dot.className = 'trail';
   document.body.appendChild(dot);
   elements.push(dot);
